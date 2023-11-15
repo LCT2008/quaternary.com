@@ -1,0 +1,195 @@
+body {
+	background: linear-gradient(-45deg, #ea17e3, #d5236a, #7342d6, #219af0, #3ae8fb, #09f47b);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 33.3%;
+	}
+  25% {
+		background-position: 66.6% 33.3%;
+	}
+	50% {
+		background-position: 99.9% 66.6%;
+	}
+  75% {
+		background-position: 99.9% 33.3%;
+	}
+	100% {
+		background-position: 0% 33.3%;
+	}
+}
+
+.header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.buttons {
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 1060px;
+    transition: 0.5s;
+}
+
+.buttons:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.content {
+    color: white;
+    background-color: transparent;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.type {
+  color: white;
+  margin-top: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+
+.animation {
+  height:100px;
+  overflow:hidden;
+  margin-left: 1rem;
+}
+
+.animation > div > div {
+  padding: 0.25rem 0.25rem;
+  height:15.00rem;
+  margin-bottom: 2.81rem;
+  display:inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 18s infinite;
+}
+
+.first {
+  background-color:transparent;
+}
+.second {
+  background-color:transparent;
+}
+.third {
+  background-color:transparent;
+}
+
+@keyframes text-animation {
+  0% {margin-top: -5.65rem;}
+  20% {margin-top: -17.40rem;}
+  40% {margin-top: -29.45rem;}
+  80% {margin-top: -17.40rem;}
+  100% {margin-top: -5.65rem;}
+}
+
+.download {
+  transition: 0.6s;
+  margin-top: 55px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+}
+
+.download:hover {
+  transform: scale(1.1);
+  transition-duration: 0.6s;
+  background-color: white;
+  color: black;
+}
+  
+  .body-text {
+  margin-left: 150px;
+  font-size: 18px;
+  }
+
+  .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #111; /* Black*/
+    opacity: 0.95;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.8s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+    transition: 0.5s;
+    margin-bottom: 25px;
+    margin-left: 15px;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+    text-decoration: underline;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.gallery {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 400px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    border: none;
+    padding-top: 30px;
+}

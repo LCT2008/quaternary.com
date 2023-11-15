@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="styles.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src="index.js"></script>
+</head>
+<body>
+    <div class="header" style="display:flex; margin: auto;" onmouseleave="closeNav()">
+      <h2 style="margin-left: 30px; font-size: 25px;">Quaternary Studio</h2>
+      <button style="margin-top: 4px;margin-left: 10px; background-color: transparent; font-size: 30px; color: white; border: none;"><i class="fa fa-bandcamp"></i></button>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#" style="margin-top: 30px;">> About Us</a>
+        <a href="#">> Services</a>
+        <a href="#">> Support Us</a>
+        <a href="#">> Contact Us</a>
+        <p></p>
+      </div>
+      
+      <span onclick="openNav()"><button class="buttons"><i class="fa fa-bars"></i></button></span>
+    </div>
+  <div class="content" style="align-items: center; text-align: center; margin-bottom: 45px;">
+    <h3 style="margin-bottom: 0px; margin-top: 90px; font-family: Helvetica;">Simplified - Versatile - Proficient</h3>
+    <main class="type">
+      <section class="animation">
+      <div class="first">
+        <h1 style="font-family: Helvetica; margin-bottom: 0px; font-size: 95px;"><b>Create...</b></h1>
+      </div>
+      <div class="second">
+        <h1 style="font-family: Helvetica; margin-bottom: 0px; font-size: 95px;"><b>Imagine...</b></h1>
+      </div>
+      <div class="third">
+        <h1 style="font-family: Helvetica; margin-bottom: 0px; font-size: 95px;"><b>Code...</b></h1>
+      </div>
+      </section>
+    </main>
+    <h2 style="font-family: Helvetica; margin-top: 2px; font-size: 40px; margin-bottom: 40px;"><b>with Quaternary</b></h2>
+  </div>
+  <div class="gallery" style="display: flex;">
+    <div class="box" style="display: block;">
+      <button style="background-color: transparent; border: none; margin-top: 10px;"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Windows_icon_logo.png" style="width: 45%; height: 45%; margin-left: auto; margin-right: auto;" alt="windowsOS"></button>
+      <h2 style="color: white; font-family: monospace; font-size: 31px;">Windows</h2>
+      <button class="download" style="border-radius: 45px; border-color: white; font-size: 20px; font-family: monospace; padding-left: 22px; padding-right: 22px; padding-top: 10px; padding-bottom: 10px; border: solid white 2px;">Download<i class="fa fa-file-code-o" style="margin-left: 10px;"></i></button>
+    </div>
+    <div class="box" style="display: block;">
+      <button style="background-color: transparent; border: none; margin-top: 10px;"><img src="https://companieslogo.com/img/orig/AAPL.D-149adf35.png?t=1632720960" style="width: 30%; height: 30%; margin-left: auto; margin-right: auto;" alt="macOS"></button>
+      <h2 style="color: white; font-family: monospace; margin-top: 59px; font-size: 30px;">MacOS</h2>
+      <button class="download" style="border-radius: 45px; border-color: white; font-size: 20px; font-family: monospace; padding-left: 22px; padding-right: 22px; padding-top: 10px; padding-bottom: 10px; border: solid white 2px;">Download<i class="fa fa-file-code-o" style="margin-left: 10px;"></i></button>
+    </div>
+    <div class="box" style="display: block;">
+      <button style="background-color: transparent; border: none; margin-top: 12px;"><img src="linux icon.png" style="width: 35%; height: 35%; margin-left: auto; margin-right: auto;" alt="linux"></button>
+      <h2 style="color: white; font-family: monospace; margin-top: 39px; font-size: 30px;">Linux</h2>
+      <button class="download" style="border-radius: 45px; border-color: white; font-size: 20px; font-family: monospace; padding-left: 22px; padding-right: 22px; padding-top: 10px; padding-bottom: 10px; border: solid white 2px;">Download<i class="fa fa-file-code-o" style="margin-left: 10px;"></i></button>
+    </div>
+  </div>
+</body>
+</html>
